@@ -5,10 +5,10 @@ This is protobuf code generation for micro. We use protoc-gen-micro to reduce bo
 ## Install
 
 ```
-go get github.com/micro/protoc-gen-micro
+go get github.com/gotoblink/protoc-gen-micro
 ```
 
-Also required: 
+Also required:
 
 - [protoc](https://github.com/google/protobuf)
 - [protoc-gen-go](https://github.com/golang/protobuf)
@@ -85,4 +85,4 @@ protoc --plugin=protoc-gen-go=$GOPATH/bin/protoc-gen-go --plugin=protoc-gen-micr
 
 ## LICENSE
 
-protoc-gen-micro is a liberal reuse of protoc-gen-go hence we maintain the original license 
+protoc-gen-micro is a liberal reuse of protoc-gen-go hence we maintain the original license

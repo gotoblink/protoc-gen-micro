@@ -53,8 +53,8 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/serkangunes/protoc-gen-micro/generator"
-	_ "github.com/serkangunes/protoc-gen-micro/plugin/micro"
+	"github.com/gotoblink/protoc-gen-micro/generator"
+	_ "github.com/gotoblink/protoc-gen-micro/plugin/micro"
 )
 
 func main() {
